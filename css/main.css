@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/poppins-v21-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/poppins-v21-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/poppins-v21-latin-600.woff2") format("woff2");
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+body {
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0 28px 0;
+}
+
+.active {
+    opacity: 1;
+}
+
+.menu {
+    column-gap: 32px;
+    display: flex;
+}
+
+.menu a {
+    display: flex;
+    color: #fff;
+    opacity: 0.6;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.clone span {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    color: #ffd3af;
+    opacity: 1;
+}
+
+.hero {
+    color: rgba(255, 255, 255, 1);
+    margin: 96px 0 96px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-content {
+    align-items: center;
+}
+
+.hero-content h1 {
+    width: 624px;
+    height: 204px;
+    font-size: 56px;
+    line-height: 68px;
+    padding-top: 80px;
+}
+
+.hero-content p {
+    width: 528px;
+    height: 48px;
+    opacity: 0.6;
+    margin: 24px 0 24px 0;
+}
+
+button {
+    background-color: rgba(68, 76, 252, 1);
+    padding: 20px 32px 20px 32px;
+}
+
+main p {
+    color: rgba(93, 95, 109, 1);
+}
+
+main h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgba(35, 37, 54, 1);
+}
+
+.clients {
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our p {
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.6;
+}
+
+.our h4 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.about-us {
+    padding: 120px 0;
+}
+
+.about-us p {
+    opacity: 0.87;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company1 {
+    font-size: 48px;
+    line-height: 58px;
+    max-width: 640px;
+    max-height: 174px;
+}
+
+.company2 h3 {
+    font-size: 36px;
+    list-style: 54px;
+}
+
+.company2 p {
+    line-height: 24px;
+    font-size: 16px;
+    max-width: 547px;
+    max-height: 72px;
+}
+
+.exp {
+    background-color: rgba(236, 248, 249, 1);
+}
+
+.expertise {
+    padding: 150px 0 170px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 112px 0 96px 0;
+}
+
+.expertise1 h2 {
+    max-width: 622px;
+    max-height: 232px;
+    font-size: 48px;
+    line-height: 58px;
+    padding: 16px 0 24px 0;
+}
+
+.expertise1 p {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 326px;
+    max-height: 96px;
+    padding-top: 24px;
+}
+
+.on {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 100px 32px 32px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 515px;
+    height: 140px;
+    margin-bottom: 12px;
+}
+
+.on img {
+    margin-right: 10px;
+}
+
+.service0 {
+    background-color: rgba(255, 230, 210, 1);
+}
+
+.service {
+    padding: 96px 0;
+}
+
+.service p {
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.87;
+}
+
+.service h2 {
+    max-width: 777px;
+    max-height: 174px;
+    font-size: 48px;
+    line-height: 58px;
+    padding-bottom: 40px;
+}
+
+.service2 button {
+    background-color: #fff;
+    border: none;
+    color: rgba(68, 76, 252, 1);
+}
+
+.service1 {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32px;
+    padding: 40px 0 20px 0;
+}
+
+.service2 {
+    padding: 48px;
+    background-color: rgba(255, 255, 255, 1);
+    max-width: 405px;
+    max-height: 325px;
+}
+
+.service2 h3 {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 0;
+}
+
+.service2 p {
+    line-height: 24px;
+    font-size: 16px;
+    max-width: 326px;
+    max-height: 96px;
+    padding-bottom: 24px;
+}
+
+.process0 {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.process {
+    padding: 96px 0;
+}
+
+.our-process {
+    color: rgba(0, 0, 0, 1);
+    padding-bottom: 16px;
+}
+
+.process h2 {
+    max-width: 733px;
+    max-height: 116px;
+    line-height: 58px;
+    font-size: 48px;
+}
+
+.process p {
+    max-width: 642px;
+    max-height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.87;
+}
+
+.process1 {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 48px;
+    padding-top: 40px;
+}
+
+.process2 {
+    display: flex;
+    max-width: 395px;
+    max-height: 164px;
+    border: 1px solid rgba(35, 37, 54, 0.17);
+    padding: 28px 5px;
+}
+
+.discover {
+    margin: 12px 10px 85px 22px;
+}
+
+.idea {
+    background-color: rgba(249, 249, 255, 1);
+}
+
+.idea0 {
+    display: flex;
+    justify-content: space-between;
+    padding: 134px 0;
+}
+
+.idea1 h2 {
+    font-size: 48px;
+    line-height: 58px;
+    max-width: 492px;
+    max-height: 116px;
+}
+
+.idea1 h5 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.idea1 p {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 492px;
+    max-height: 48px;
+    margin: 16px 0 16px 0;
+}
+
+.c30 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 500px;
+}
+
+.idea2 {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 48px 40px;
+}
+
+.idea2 h4 {
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 498px;
+    max-height: 180px;
+    padding-bottom: 30px;
+}
+
+.johnny {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.director0 {
+    display: flex;
+}
+
+.johnny img {
+    margin-right: 10px;
+}
+
+.imj {
+    margin: 0 15px 0 15px;
+}
