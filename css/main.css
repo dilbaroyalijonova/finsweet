@@ -405,3 +405,56 @@ h6 {
 .imj {
     margin: 0 15px 0 15px;
 }
+
+.news {
+    background-color: rgba(236, 248, 249, 1);
+}
+
+.news3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 0;
+}
+
+.news3 button {
+    border: none;
+    gap: 5px;
+    color: blue;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.87;
+    margin-top: 10px;
+}
+
+.news0 h2 {
+    font-size: 48px;
+    line-height: 58px;
+    padding: 48px 0;
+}
+
+.news2,
+.news1 {
+    display: flex;
+}
+
+.news4 h2 {
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 264px;
+    max-height: 108px;
+    margin: 24px 0;
+}
+
+.news4 {
+    padding: 32px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.news4 h3 {
+    max-width: 264px;
+    max-height: 108px;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 12px 0 20px 0;
+}
